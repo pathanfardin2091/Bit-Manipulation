@@ -5,9 +5,9 @@ public class Bit_Manipulation{
 
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
-        // int i = sc.nextInt();
-        // int j = sc.nextInt();
-        // odd_even();
+        int i = sc.nextInt();
+        int j = sc.nextInt();
+        odd_even();
         
         System.out.print(count_set_bit(num));
     }
